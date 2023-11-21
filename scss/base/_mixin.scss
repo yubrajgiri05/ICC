@@ -1,0 +1,22 @@
+@mixin Lora {
+    font-family: 'Lora', serif;
+}
+
+@mixin Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin Poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

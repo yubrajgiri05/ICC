@@ -1,0 +1,27 @@
+.error {
+    padding-top: 300px;
+
+    .error-text {
+        h1 {
+            color: #F00;
+            @include Lora;
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        p {
+            color: #414141;
+            @include Roboto;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            /* 136.364% */
+        }
+    }
+
+    img {
+        width: 357.598px;
+        height: 349px;
+    }
+}

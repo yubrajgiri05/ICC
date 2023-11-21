@@ -1,0 +1,44 @@
+.test-prepration {
+    .row {
+        a {
+            figure {
+                position: relative;
+
+                figcaption {
+                    position: absolute;
+                    bottom: 30px;
+                    right: 31px;
+                    width: 160px;
+                    height: 54px;
+                    clip-path: polygon(22% 0, 100% 0%, 100% 98%, 0% 100%);
+                    background-color: white;
+                    @include flex-center;
+                    padding-left: 14px;
+                    transition: 0.7s;
+
+
+                    span {
+                        text-decoration: none;
+                        color: #414141;
+                        text-align: center;
+                        @include Lora;
+                        font-size: 26px;
+                        font-weight: 600;
+                    }
+
+                }
+
+                &:hover {
+                    figcaption {
+                        right: 30%;
+                        background-color: $primary-color;
+
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

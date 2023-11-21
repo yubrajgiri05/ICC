@@ -1,0 +1,284 @@
+.country {
+    .about-country {
+        background: #ECF7FF !important;
+        padding: 40px;
+
+        figure {
+            width: 100%;
+            height: 100%;
+
+            img {
+                max-height: 500px !important;
+            }
+        }
+    }
+    .section-sub-heading h3{
+        @include Lora;
+        margin-bottom: 10px;
+
+    }
+}
+
+.visa-processing {
+    background: #ECF7FF !important;
+
+    .d-flex {
+        flex-direction: row;
+        padding-top: 6rem;
+        justify-content: space-around !important;
+
+        .img-country {
+            margin-top: 2rem !important;
+            .nav-pills {
+                border: 2px solid #0069C7 !important;
+                border-radius: 50%;
+                position: relative;
+                width: 437px;
+                height: 437px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                button {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .inside-box {
+                        display: flex;
+                        gap: 10px;
+
+                        span {
+                            color: #414141;
+                            @include Roboto;
+                            font-size: 30px;
+                            font-weight: 400;
+                            opacity: 0.5;
+                        }
+
+                        figure {
+                            img {
+                                height: 30px;
+                                width: 30px;
+                                margin-top: 5px !important;
+                            }
+                        }
+
+                    }
+                    p {
+                        color: #414141;
+                        text-align: center;
+                        @include Roboto;
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+
+                figure {
+                    img {
+                        border-radius: 50%;
+                        width: 200px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
+                }
+
+                // .nav-link {
+                //     display: flex;
+                //     align-items: center;
+                //     justify-content: center;
+                //     border-radius: 50%;
+                //     height: 130px;
+                //     width: 130px;
+                //     background-color: white;
+                //     filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+
+                //     &:first-child {
+                //         // border: 3px solid red;
+                //         position: absolute;
+                //         top: -57px;
+                //         left: 148px;
+                //     }
+
+                //     &:nth-child(2) {
+                //         position: absolute;
+                //         top: 83px;
+                //         left: 351px;
+                //     }
+
+                //     &:nth-child(3) {
+                //         position: absolute;
+                //         bottom: 0;
+                //         right: 0;
+                //     }
+
+                //     &:nth-child(4) {
+                //         position: absolute;
+                //         bottom: 0;
+                //         left: 0;
+                //     }
+
+                //     &:nth-child(5) {
+                //         position: absolute;
+                //         top: 81px;
+                //         left: -45px;
+                //     }
+
+
+                // }
+
+            }
+        }
+
+        .text-country {
+            width: 50%;
+            background-color: white;
+            padding: 29px 35px;
+            margin-top: -54px;
+
+            .tab-content {
+                .section-description h3 {
+                    color: #414141 !important;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    
+}
+
+.nav-pills .nav-link.active {
+    background-color:#0069C7 !important;
+    .inside-box{
+        figure{
+            img{
+                filter: brightness(0) invert(1);
+            }
+        }
+        span{
+            color: white !important;
+            opacity: 100% !important;
+        }
+    }
+    p{
+        color: white !important;
+    }
+}
+
+
+//when 5 nav-link comes
+
+.visa-processing{
+    .navlink5{
+        .img-country{
+            .nav-pills{
+                .nav-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    height: 130px;
+                    width: 130px;
+                    background-color: white;
+                    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+
+                    &:first-child {
+                        // border: 3px solid red;
+                        position: absolute;
+                        top: -57px;
+                        left: 148px;
+                    }
+
+                    &:nth-child(2) {
+                        position: absolute;
+                        top: 83px;
+                        left: 351px;
+                    }
+
+                    &:nth-child(3) {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                    }
+
+                    &:nth-child(4) {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                    }
+
+                    &:nth-child(5) {
+                        position: absolute;
+                        top: 81px;
+                        left: -45px;
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+//when 6 nav-link comes
+.visa-processing{
+    .navlink6{
+        .img-country{
+            .nav-pills{
+                .nav-link {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    height: 130px;
+                    width: 130px;
+                    background-color: white;
+                    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+
+                    &:first-child {
+                        // border: 3px solid red;
+                        position: absolute;
+                        top: -57px;
+                        left: 148px;
+                    }
+
+                    &:nth-child(2) {
+                        position: absolute;
+                        top: 32px;
+                        left: 317px;
+                    }
+
+                    &:nth-child(3) {
+                        position: absolute;
+                        bottom: 50px;
+                        right: -32px;
+                    }
+
+                    &:nth-child(4) {
+                        position: absolute;
+                        bottom: -31px;
+                        left: 122px;
+                    }
+
+                    &:nth-child(5) {
+                        position: absolute;
+                        top: 222px;
+                        left: -53px;
+                    }
+                    
+                    &:nth-child(6) {
+                        position: absolute;
+                        top: 43px;
+                        left: -42px;
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}

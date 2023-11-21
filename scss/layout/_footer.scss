@@ -1,0 +1,70 @@
+footer {
+    background: linear-gradient(0deg, #00364D 0%, #00364D 100%), url(<path-to-image>), lightgray 0.025px -578.095px / 100% 216.779% no-repeat;
+    padding: 50px 0 20px 0;
+
+    ul {
+        list-style: none;
+        height: 100%;
+        padding: 0 !important;
+
+        .footer-title {
+            color: #FFF;
+            @include Roboto;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            // margin-bottom: 15px !important;
+        }
+
+        li {
+            margin: 12px 0 0 0px;
+
+            a,
+            .contact-us {
+                text-decoration: none;
+                color: #FFF;
+                @include Roboto;
+                font-size: 16px;
+                font-weight: 400;
+                letter-spacing: 0.32px;
+
+                i {
+                    margin: 5px 6px 0px 0px;
+                }
+
+                span {
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .fa-brands {
+                    font-size: 24px;
+                    margin-right: 18px;
+                    color: white;
+                }
+            }
+
+        }
+    }
+
+    .horizental-line {
+        height: 1px;
+        background-color: #FFF;
+        width: 100%;
+        margin: 25px 0 15px;
+    }
+
+   .d-flex{
+    .copyright {
+        color: #FFF;
+        @include Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.36px;
+        a{
+            color: #FFF;
+        }
+    }
+   }
+}

@@ -1,0 +1,133 @@
+.carrer-single {
+    .row {
+        figure {
+            img {
+                max-height: 500px !important;
+            }
+        }
+    }
+  
+}
+
+.career-box {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom: 25px;
+
+    .career-box-top {
+        height: 20%;
+        padding: 18px 78px 18px 24px;
+        border-radius: 6px 6px 0px 0px;
+        background-color: #D6F3FF;
+
+        span {
+            color: #414141;
+            text-align: justify;
+            @include Roboto;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+    }
+
+    .career-box-bottom {
+        display: flex;
+        flex-direction: column;
+
+        .d-flex {
+            width: 90%;
+            margin: 13px 16px;
+            padding: 10px;
+            background: #F5F5F5;
+            gap: 12px;
+            border-radius: 5px;
+
+            i {
+                font-weight: 900;
+                color: $primary-color !important;
+                font-size: 24px;
+            }
+
+            span {
+                color: #414141;
+                @include Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                padding-top: 4px;
+            }
+
+            p {}
+        }
+
+    }
+}
+
+.other-service {
+    background: #EEF7FF;
+
+    .owl-test-class {
+        padding: 1px;
+    }
+    .service-card{
+        margin: 10px !important;
+    }
+}
+
+.career-box-detail {
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 25px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+    .career-box-detail-top {
+        border-bottom: 1px solid #D9D9D9;
+        padding-bottom: 30px;
+
+        span {
+            color: #414141;
+            @include Roboto;
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+
+    .career-box-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .d-flex {
+            gap: 10px;
+
+            span {
+                color: #414141;
+                @include Roboto;
+                font-size: 18px;
+                font-weight: 400;
+                min-width: 171px;
+            }
+
+            p {
+                color: #414141;
+                @include Roboto;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+        }
+
+        .btn {
+            width: 140px;
+            height: 48px;
+            border-radius: 5px;
+            background: #0069C7;
+        }
+    }
+}
